@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="day24planets.css">
+</head>
+
+<body>
+	<header>
+		<h1>Calculate a weight of an object on a planet</h1>
+        <div class="input-form">
+            <input type="text" id="mass" placeholder="Mass in Kilogram" />
+            <select>
+                <option value='none'>--select planet-- </option>
+                <option value="earth">earth</option>
+                <option value="jupiter">jupiter</option>
+                <option value="mars">mars</option>
+                <option value="mercury">mercury</option>
+                <option value="moon">moon</option>
+                <option value="neptune">neptune</option>
+                <option value="pluto">pluto</option>
+                <option value="saturn">saturn</option>
+                <option value="uranus">uranus</option>
+                <option value="venus">venus</option>
+            </select>
+            <button>Calculate weight</button>
+        </div>
+	</header>
+	<main>
+		<div class="flex-container">
+			<div class="flex-item-image">
+				<img src='https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/earth.png' class="planet-image" alt="error"/>
+			</div>
+		    <div class="flex-item-description"></div>
+
+		</div>
+
+
+	</main>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="day24planets.js"></script>
+</body>
+
+</html>
